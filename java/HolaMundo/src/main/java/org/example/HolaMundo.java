@@ -51,7 +51,7 @@ public class HolaMundo {
         System.out.println("Valor maximo del Byte: " + Byte.MAX_VALUE);*/
 
 
-        float numFloat = 3.4028235E38F;
+        /*float numFloat = 3.4028235E38F;
         System.out.println("numFloat = " + numFloat);
         System.out.println("El valor minimo de float: " + Float.MIN_VALUE);
         System.out.println("El valor maximo de float: " + Float.MAX_VALUE);
@@ -59,7 +59,16 @@ public class HolaMundo {
         double numDouble = 1.7976931348623157E308;
         System.out.println("numDoble = " + numDouble);
         System.out.println("El valor minimo de double: " + Double.MIN_VALUE);
-        System.out.println("El valor maximo de double: " + Double.MAX_VALUE);
+        System.out.println("El valor maximo de double: " + Double.MAX_VALUE);*/
+
+        //Interencia de tipos var y tipos primitivos
+        var numEntero = 20; //Las literales sin punto automaticamente son de tipo int
+        System.out.println("numEntero = " + numEntero);
+        var numFloat = 10.0F; //Automaticamente con el punto decimal se transforma en tipo double
+        System.out.println("numFloat = " + numFloat);
+        var numDouble = 10.0;
+        System.out.println("numDouble = " + numDouble);
+
 
     }
 }
