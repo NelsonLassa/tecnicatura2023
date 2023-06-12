@@ -62,13 +62,50 @@ public class HolaMundo {
         System.out.println("El valor maximo de double: " + Double.MAX_VALUE);*/
 
         //Interencia de tipos var y tipos primitivos
-        var numEntero = 20; //Las literales sin punto automaticamente son de tipo int
+        /*var numEntero = 20; //Las literales sin punto automaticamente son de tipo int
         System.out.println("numEntero = " + numEntero);
-        var numFloat = 10.0F; //Automaticamente con el punto decimal se transforma en tipo double
+        var numFloat = 10.0F;*/
+         /*Automaticamente con el punto decimal se transforma en tipo double*/
+        /*
         System.out.println("numFloat = " + numFloat);
         var numDouble = 10.0;
-        System.out.println("numDouble = " + numDouble);
+        System.out.println("numDouble = " + numDouble);*/
 
+        //Tipos primitivos char
+        char miVariableChar = 'a';
+        System.out.println("miVariableChar = " + miVariableChar);
 
+        //Indicamos a Java la asignación con el codigo unicode
+        char varCaracter = '\u0024';
+        System.out.println("varCaracter = " + varCaracter);
+
+        //Valor decimal del juego de caracteres unicode
+        char varCaracterDecimal = 36 ;
+        System.out.println("varCaracterDecimal = " + varCaracterDecimal);
+
+        //un caracter especial, podemos copiar y pegar desde unicode
+        char varCaracterSimbolo = '$';
+        System.out.println("varCaracterSimbolo = " + varCaracterSimbolo);
+
+        //Tipos primitivos char
+        var miVariableChar1 = 'a';
+        System.out.println("miVariableChar1 = " + miVariableChar1);
+
+        //Indicamos a Java la asignación con el codigo unicode
+        var varCaracter1 = '\u0024';
+        System.out.println("varCaracter1 = " + varCaracter1);
+
+        //Valor Entero y le asigna un tipo int
+        var varCaracterDecimal1 = (char) 36 ;
+        System.out.println("varCaracterDecimal1 = " + varCaracterDecimal1);
+
+        //un caracter especial, podemos copiar y pegar desde unicode
+        var varCaracterSimbolo1 = '$';
+        System.out.println("varCaracterSimbolo1 = " + varCaracterSimbolo1);
+
+        int varEnteroChar = '$';
+        System.out.println("varEnteroChar = " + varEnteroChar);
+        int caracterChar = 'b';
+        System.out.println("caracterChar = " + caracterChar);
     }
 }
