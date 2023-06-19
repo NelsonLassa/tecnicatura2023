@@ -8,6 +8,6 @@ x = 10
 y = 2
 z = x + y
 print(id(x))
-# Las literales se escriben x528, la variable y = x272, la variable = x592
+# Las literales se escriben x328, la variable y = x072, la variable = x392
 print(id(y))
 print(id(z))
