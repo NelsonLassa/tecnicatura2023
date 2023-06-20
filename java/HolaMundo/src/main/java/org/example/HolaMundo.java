@@ -107,5 +107,10 @@ public class HolaMundo {
         System.out.println("varEnteroChar = " + varEnteroChar);
         int caracterChar = 'b';
         System.out.println("caracterChar = " + caracterChar);
+        /* Instanciar una clase
+        Clase6_2023 clase62023 = new Clase6_2023();
+        clase62023.imprimirChau();
+
+         */
     }
 }
