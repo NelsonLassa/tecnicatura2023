@@ -65,7 +65,7 @@ public class HolaMundo {
         /*var numEntero = 20; //Las literales sin punto automaticamente son de tipo int
         System.out.println("numEntero = " + numEntero);
         var numFloat = 10.0F;*/
-         //Automaticamente con el punto decimal se transforma en tipo double
+        //Automaticamente con el punto decimal se transforma en tipo double
         /*
         System.out.println("numFloat = " + numFloat);
         var numDouble = 10.0;
@@ -80,7 +80,7 @@ public class HolaMundo {
         System.out.println("varCaracter = " + varCaracter);
 
         //Valor decimal del juego de caracteres unicode
-        char varCaracterDecimal = 36 ;
+        char varCaracterDecimal = 36;
         System.out.println("varCaracterDecimal = " + varCaracterDecimal);
 
         //un caracter especial, podemos copiar y pegar desde unicode
@@ -96,7 +96,7 @@ public class HolaMundo {
         System.out.println("varCaracter1 = " + varCaracter1);
 
         //Valor Entero y le asigna un tipo int
-        var varCaracterDecimal1 = (char) 36 ;
+        var varCaracterDecimal1 = (char) 36;
         System.out.println("varCaracterDecimal1 = " + varCaracterDecimal1);
 
         //un caracter especial, podemos copiar y pegar desde unicode
