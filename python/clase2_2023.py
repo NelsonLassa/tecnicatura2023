@@ -1,3 +1,4 @@
+'''
 miVariable = 3
 print(miVariable)
 miVariable = 'Hola a todos los estudiantes de la tecnicatura'
@@ -66,3 +67,5 @@ print("Mi día estuvo de: " + dia)
 titulo = input("Proporciona el titulo: ")
 autor = input("Proporciona el autor: ")
 print(titulo, "fue escrito por",autor)
+'''
+
