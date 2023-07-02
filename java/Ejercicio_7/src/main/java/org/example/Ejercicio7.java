@@ -32,7 +32,5 @@ public class Ejercicio7 {
 
         System.out.println("\nEl sueldo mensual sera de: $ " + sueldoMensual);
 
-
-
     }
 }
