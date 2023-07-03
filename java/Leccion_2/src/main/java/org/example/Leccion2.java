@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Leccion2 {
     public static void main(String[] args) {
         /*
@@ -31,5 +33,26 @@ public class Leccion2 {
         System.out.println("numeroTexto = " + numeroTexto);
         */
 
+        Scanner consola = new Scanner(System.in);
+        System.out.println("Digite un numero del 1 al 4: ");
+        var numero = Integer.parseInt(consola.nextLine());
+        var numeroTexto = "Número desconocido";
+        switch (numero){
+            case 1:
+                numeroTexto = "Número uno";
+                break;
+            case 2:
+                numeroTexto = "Número dos";
+                break;
+            case 3:
+                numeroTexto = "Número tres";
+                break;
+            case 4:
+                numeroTexto = "Número cuatro";
+                break;
+            default:
+                numeroTexto = "Caso no encontrado";
+        }
+        System.out.println("numeroTexto = " + numeroTexto);
     }
 }
