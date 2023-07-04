@@ -10,14 +10,22 @@ else:
 """
 # Conversión de Número a texto
 
-num = int(input("Digite un número en el rango del 1 al 3: "))
-numTexto = ""
-if num == 1:
-    numTexto = "Número uno"
-elif num == 2:
-    numTexto = "Número dos"
-elif num == 3:
-    numTexto = "Número tres"
-else:
-    numTexto = "Has ingresado un número fuera de rango"
-print(f'El número ingresado es: {num} - {numTexto}')
+# num = int(input("Digite un número en el rango del 1 al 3: "))
+# numTexto = ""
+# if num == 1:
+#     numTexto = "Número uno"
+# elif num == 2:
+#     numTexto = "Número dos"
+# elif num == 3:
+#     numTexto = "Número tres"
+# else:
+#     numTexto = "Has ingresado un número fuera de rango"
+# print(f'El número ingresado es: {num} - {numTexto}')
+
+condicion = True
+# if condicion:
+#     print("Condicion Verdadera")
+# else:
+#     print("Condicion Falsa")
+
+print("Condicion verdadera") if condicion else print("Condicion Falsa")
